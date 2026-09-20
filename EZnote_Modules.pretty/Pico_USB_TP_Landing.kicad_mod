@@ -1,0 +1,83 @@
+(footprint "Pico_USB_TP_Landing"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Landing pads on OUR board for the two bodge wires that run to U1's underside USB test pads (TP2=D-, TP3=D+). Not a real part — just a defined anchor point so the wires have somewhere solid to terminate instead of running loose to J1.")
+  (tags "USB bodge wire landing test point")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "6eb77b6b-923c-4936-af8d-54742c6dd942")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "Pico_USB_TP_Landing" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "d6b03098-2008-4bb8-9ba7-cf5800686d51")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "3677686e-9989-49bb-ba26-960b53cb647a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 4 4.5)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "30409158-c071-45d2-8c8c-9a18332e2da0")
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 4 4.5)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "35c1f36f-d0f8-4f2d-ae59-c9ca93fa7dda")
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 4 4.5)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "d31844b6-c812-4d25-829c-7d17e90dad1c")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 0 0)
+    (size 1.8 1.8)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "4b16a9a5-b44c-456b-85c6-bcd8c3062ae6")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 2.54)
+    (size 1.8 1.8)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "8d2e6399-50d0-4b1e-9694-56a9dd088b35")
+  )
+
+  (fp_text user "D-"
+    (at 2.3 0 0)
+    (layer "F.SilkS")
+    (uuid "89ff74df-868e-4f12-855d-590cc78826ed")
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+  )
+
+  (fp_text user "D+"
+    (at 2.3 2.54 0)
+    (layer "F.SilkS")
+    (uuid "adc7a3fe-cff9-40c2-a93f-c3d727c2aadf")
+    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
+  )
+
+)

@@ -1,0 +1,93 @@
+(footprint "Adafruit_MicroLipo_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Adafruit Micro-Lipo Charger USB-C (product #4410), real dimensions 24x19x7.2mm per Adafruit spec. 5 breakout pads (5V/D-/D+/GND/VBAT) at 0.1in spacing — exact row order/position estimated, verify against physical board.")
+  (tags "Adafruit MicroLipo charger 4410 USB-C")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "8a40c2fa-dc6d-4fb0-b295-cfe89a1cc0d4")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "Adafruit_MicroLipo_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "e3ae8120-5a5c-4521-ba1d-f3140f960480")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "30791112-0a4c-4c40-a2e9-a8ee2fa542b0")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3 -12)
+    (end 21 4)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "56f525e7-cb25-4ba4-96a5-43f753300afa")
+  )
+
+  (fp_rect
+    (start -3 -12)
+    (end 21 4)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "d604fcde-71c3-4b94-9060-c816eb7de9a8")
+  )
+
+  (fp_rect
+    (start -3 -12)
+    (end 21 4)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "cc7703b2-a897-41f8-ba46-a26769e93f41")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "7ba82d17-9dd5-4da1-9706-0a775a5a5208")
+  )
+
+  (pad "2" thru_hole circle
+    (at 2.54 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "20f5cb16-48aa-407b-b368-69a1140715aa")
+  )
+
+  (pad "3" thru_hole circle
+    (at 5.08 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "14c479b1-41d9-454f-af71-23bdb2a556cf")
+  )
+
+  (pad "4" thru_hole circle
+    (at 7.62 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "c50fb633-6584-419b-9bee-aa344749f520")
+  )
+
+  (pad "5" thru_hole circle
+    (at 10.16 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a9c6157d-08bf-4bac-83de-cbdd4a1c0a36")
+  )
+
+)

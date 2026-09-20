@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U1";"RaspberryPi_Pico_Common_Unspecified";1;"Raspberry Pi Pico 2 (RP2350)";;;
+2;"R1,R3,R2,R5,R4";"R_0805_2012Metric";5;"330";;;
+3;"D1";"LED_0805_2012Metric";1;"LED_Recording_Blue";;;
+4;"D5";"LED_0805_2012Metric";1;"LED_Batt4_Green_100pct";;;
+5;",";"";2;"";;;
+6;"D3";"LED_0805_2012Metric";1;"LED_Batt2";;;
+7;"J1";"Pogo_4Pin_2.54mm";1;"Magnetic Pogo 4-pin";;;
+8;"D2";"LED_0805_2012Metric";1;"LED_Batt1";;;
+9;"SW4";"SW_E-Switch_EG1224_SPDT_Angled";1;"SPDT Slide Switch (Power)";;;
+10;"Q1";"SOT-23";1;"AO3401A (reverse-polarity protection)";;;
+11;"MOD3";"MAX17048_Breakout_Outline";1;"MAX17048 Fuel Gauge";;;
+12;"MOD5";"Adafruit_MicroSD_Outline";1;"Adafruit MicroSD SPI Breakout (#4682)";;;
+13;"SW3,SW2,SW1";"SW_Tactile_SPST_Angled_PTS645Vx31-2LFS";3;"Tactile Switch 6x6mm";;;
+14;"MOD2";"Adafruit_MicroLipo_Outline";1;"Adafruit MicroLipo Charger USB-C (#4410)";;;
+15;"D4";"LED_0805_2012Metric";1;"LED_Batt3";;;
+16;"MOD4";"INMP441_Breakout_Outline";1;"INMP441 I2S Mic";;;
+17;"J2";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";1;"Battery Input (bare pins)";;;

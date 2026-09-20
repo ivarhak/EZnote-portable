@@ -1,0 +1,101 @@
+(footprint "TP4056_Module_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "TP4056/DW01A/FS8205A USB-C protected charge module, real layout from reference photo: IN+/IN- small pads next to USB-C connector, OUT+/B+/B-/OUT- as 4 corner through-holes (also the board's mounting holes). Board ~17x26mm, wired via flying leads, NOT header-mounted. Verify exact hole spacing against your actual board.")
+  (tags "TP4056 charger module outline corner holes USB-C")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "b14b9853-8944-404a-b562-64a640ab494d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "TP4056_Module_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "2be4c9c4-6956-495f-93b4-de343137ce58")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "586f5b46-b1d1-4532-a1c8-967bf4c51197")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -0.5 -0.5)
+    (end 17.5 26.5)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "1e55e929-9323-4e39-b067-3d138803cf76")
+  )
+
+  (fp_rect
+    (start -0.5 -0.5)
+    (end 17.5 26.5)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "f5b9f052-4d66-499b-bb18-a27512a06cf4")
+  )
+
+  (fp_rect
+    (start -0.5 -0.5)
+    (end 17.5 26.5)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "084196b9-1a2c-4805-b5d4-781e3f3ef062")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 6 4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "32557add-1f32-498d-94ff-e5cd57ac9d87")
+  )
+
+  (pad "2" thru_hole circle
+    (at 11 4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "cc604935-f034-4b1c-aa2c-dd823148b24b")
+  )
+
+  (pad "5" thru_hole circle
+    (at 3 13)
+    (size 2.8 2.8)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "48e12b28-c69c-4d1c-9a54-8261a0954d84")
+  )
+
+  (pad "3" thru_hole circle
+    (at 14 13)
+    (size 2.8 2.8)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a2df061e-9a98-4b09-94ed-f681428c8888")
+  )
+
+  (pad "4" thru_hole circle
+    (at 14 23)
+    (size 2.8 2.8)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "45aeb49f-e59c-45d3-bff6-813790ccc964")
+  )
+
+  (pad "6" thru_hole circle
+    (at 3 23)
+    (size 2.8 2.8)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "43eae269-66c5-4041-b7e0-01291a5c39ae")
+  )
+
+)

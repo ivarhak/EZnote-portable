@@ -1,0 +1,101 @@
+(footprint "INMP441_Breakout_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "INMP441 mic breakout, real \"coin\" shape from reference photo: circular PCB, 2 rows of 3 through-holes (GND/VDD/SD top, L-R/WS/SCK bottom). Estimated ~22mm diameter — verify against your actual board.")
+  (tags "INMP441 mic breakout outline circular coin")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "d1708eb8-9055-4a71-9138-fcda537e03b5")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "INMP441_Breakout_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "75bf3618-4877-4708-a9e9-2cbaa4c3e5d9")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "0ebdee65-b68f-41e7-847a-c9027a02aaeb")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (pad "2" thru_hole roundrect
+    (at -4 4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "72ec558d-e0f8-497f-9109-c596deca99b3")
+  )
+
+  (pad "1" thru_hole circle
+    (at 0 4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "d82acc07-b255-44fa-a68f-20807e747b31")
+  )
+
+  (pad "5" thru_hole circle
+    (at 4 4)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "651cb44e-aad0-48cf-9d7a-424f573f7f7f")
+  )
+
+  (pad "6" thru_hole circle
+    (at -4 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "e8d07121-1f48-49d4-b635-00a819f0c9ce")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "cec0017d-36aa-43a7-a120-2b222480ea67")
+  )
+
+  (pad "3" thru_hole circle
+    (at 4 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "14b87474-1c53-42b1-87a2-153bbd563dfc")
+  )
+
+  (fp_circle
+    (center 0 1)
+    (end 11.0 1)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "ca2d41a3-54a3-4d00-9f12-05eaa91aa8de")
+  )
+
+  (fp_circle
+    (center 0 1)
+    (end 11.0 1)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "51f3d685-e9f6-47b9-8c2b-e87f29b547a6")
+  )
+
+  (fp_circle
+    (center 0 1)
+    (end 10.8 1)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "5a6abfe0-9a09-4f7c-8b3d-8b2d46e06e7b")
+  )
+
+)

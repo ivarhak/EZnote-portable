@@ -1,0 +1,117 @@
+(footprint "Adafruit_MicroSD_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Adafruit MicroSD SPI/SDIO breakout (#4682), 25.4x22.8x3.5mm. 8 pads: 3V/GND/CLK/D0(SO)/CMD(SI)/D3(CS)/D1 in a row + DET offset near the far corner, matching the real photographed layout. Exact position estimated from photo, verify before fab. 3V logic ONLY.")
+  (tags "Adafruit MicroSD breakout 4682 SPI SDIO 8pin")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "7b426094-2ff0-4346-9a29-806763ae2be1")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "Adafruit_MicroSD_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "5866a835-1c29-409d-ad4c-75955b50dc06")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "ee442fd4-ffc4-4b46-8e88-a842b4dcf5b2")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3 -5.08)
+    (end 19.8 22)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "95a0e631-7f90-428a-9162-0b9c86fb4580")
+  )
+
+  (fp_rect
+    (start -3 -5.08)
+    (end 19.8 22)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "554a7e9b-a157-4422-9e77-8da29516d9c5")
+  )
+
+  (fp_rect
+    (start -3 -5.08)
+    (end 19.8 22)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "8786d5db-2a29-4314-acf6-cacb6e127cb2")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "fe2caa56-7b54-4aff-bcf7-999453b60956")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "885575d5-5f63-435c-b13b-fc24823c155b")
+  )
+
+  (pad "3" thru_hole circle
+    (at 0 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "e3929e80-ab6f-438d-a67a-304140c09202")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "5fa5f8b0-f223-4ed6-a939-2f3d9a20d240")
+  )
+
+  (pad "5" thru_hole circle
+    (at 0 10.16)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "da8ffc9f-9331-44d9-92f4-744a5396a598")
+  )
+
+  (pad "6" thru_hole circle
+    (at 0 12.7)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "28c36431-68f3-4946-bbe0-98501b9c7fb7")
+  )
+
+  (pad "7" thru_hole circle
+    (at 0 15.24)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a9fbff1f-e566-42aa-be19-d9917e4b54a4")
+  )
+
+  (pad "8" thru_hole circle
+    (at 8 19)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "fa0c453b-330e-4365-a573-35f4144a405c")
+  )
+
+)

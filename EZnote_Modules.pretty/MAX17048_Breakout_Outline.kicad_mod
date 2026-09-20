@@ -1,0 +1,101 @@
+(footprint "MAX17048_Breakout_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "MAX17048 fuel gauge breakout (Adafruit-style), real pinout from reference photo: 6 pads VIN/GND/SCL/SDA/INT/QStart. No separate BAT pad — battery connects via onboard JST, VIN is the chip's self-power/sense node. Outline estimated, verify against physical board.")
+  (tags "MAX17048 fuel gauge breakout outline 6pin")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "0291b540-64cb-47dc-b276-efb591e1ad2d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "MAX17048_Breakout_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "e10ddbca-0afb-4c95-8c28-8507a6f4ed23")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "866a6222-bc56-4767-8c8e-515ebacce5b0")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3 -4.5)
+    (end 12 17.2)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "8a971a13-1900-44ca-9f59-f95c98682a1e")
+  )
+
+  (fp_rect
+    (start -3 -4.5)
+    (end 12 17.2)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "779ec13a-42c7-4ba7-9427-ba2fb70fd407")
+  )
+
+  (fp_rect
+    (start -3 -4.5)
+    (end 12 17.2)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "b7018301-9a67-4568-89b4-fb809e409e76")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "eabd550d-99c5-40fc-827a-81ff72cde799")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "dbf842a9-cda7-43f6-b9d0-3dd9bc36dfb8")
+  )
+
+  (pad "3" thru_hole circle
+    (at 0 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "379a65bf-bfcb-45c0-b4c8-1cf831999f25")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "61acac8f-fe0a-477d-bf73-665003854cd4")
+  )
+
+  (pad "5" thru_hole circle
+    (at 0 10.16)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "ad98593c-c901-47b7-9a6f-8a6f98b020ca")
+  )
+
+  (pad "6" thru_hole circle
+    (at 0 12.7)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "c91c86bb-bce8-4de2-a1de-9a7ebc77d766")
+  )
+
+)

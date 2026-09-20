@@ -1,0 +1,117 @@
+(footprint "SPH0645_Breakout_Outline"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "Adafruit SPH0645LM4H I2S MEMS mic breakout (product #3421), real dimensions 16.7x12.7x1.8mm per Adafruit spec, includes 2 mounting holes (positions estimated). Pin order/spacing estimated single-row 0.1in — verify against physical board.")
+  (tags "SPH0645 mic breakout Adafruit 3421")
+
+  (property "Reference" "REF**" (at 0 -1.27 0)
+    (layer "F.SilkS")
+    (uuid "2d2ce213-1689-4528-9827-9f6058862290")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SPH0645_Breakout_Outline" (at 0 1.27 0)
+    (layer "F.Fab")
+    (uuid "d2714061-a322-4e1e-bfcc-4f7038571bde")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "a47155fd-1a2e-44c7-8841-44c678858b80")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 10.7 14.7)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "e4caa807-3685-4d3b-954d-1fc4a90e615b")
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 10.7 14.7)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "6128a55c-ae95-4f52-b4e3-900a6dc8740a")
+  )
+
+  (fp_rect
+    (start -2 -2)
+    (end 10.7 14.7)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "b62c5e77-97ed-4e1e-859e-bdc8e30c76bb")
+  )
+
+  (pad "1" thru_hole roundrect
+    (at 0 0)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "d0347060-a172-43de-8d3b-48cf167a22fc")
+  )
+
+  (pad "2" thru_hole circle
+    (at 0 2.54)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "46025d08-384b-44fb-9b26-8d3fb5840c52")
+  )
+
+  (pad "3" thru_hole circle
+    (at 0 5.08)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "e3e037dd-58af-4e8d-bbe6-34cbe4798591")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "fe992881-0bd5-4dc8-bd7a-81c9dbe07e15")
+  )
+
+  (pad "5" thru_hole circle
+    (at 0 10.16)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "50c90252-8c54-41e4-bb21-876b709db88b")
+  )
+
+  (pad "6" thru_hole circle
+    (at 0 12.7)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "02ee86a9-71f2-4b74-9829-ca1c76857613")
+  )
+
+  (pad "" np_thru_hole circle
+    (at 2 12.5)
+    (size 1.5 1.5)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "af8053c6-9eae-4c8a-a3bf-2e77e0982ea2")
+  )
+
+  (pad "" np_thru_hole circle
+    (at 8.7 12.5)
+    (size 1.5 1.5)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "6178b2fb-2900-4320-b466-1c733a924c7e")
+  )
+
+)
